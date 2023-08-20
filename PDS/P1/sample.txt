@@ -1,0 +1,6 @@
+This is a sample text file.
+It has multiple lines.
+Some of these lines start with PDS.
+PDS is an acronym.
+PDS stands for "Python for Data Science."
+End of the file.
