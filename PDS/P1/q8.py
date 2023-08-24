@@ -3,7 +3,7 @@ Write a Python function to check whether a string is a pangram or not.
 -A pangram is a sentence containing every letter in the English Alphabet.
 """
 def pangram(input_str):
-     # Convert 'a' to its unicode
+    # Convert 'a' to its unicode
     ch = ord('a') 
     input_str = input_str.lower()
     # Loop from 'a' to 'z' (unicode)
