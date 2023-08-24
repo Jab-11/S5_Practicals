@@ -14,7 +14,7 @@ executed/time taken for each cases (random, ascending, and descending).
 #include <stdlib.h>
 #include <stdbool.h>
 
-int num[10000];
+int num[100000];
 void ascending_order(int n){
     for(int i=0;i<n;i++){
         num[i]=i+1;
@@ -133,35 +133,39 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 void main(){
-    int n=5000;
-    random_order(n);
+    int n=100000;
     clock_t t;
     double time;
     
+    descending_order(n);
     t=clock();
     selectionSort(num,n);
     t=clock()-t;
     time = ((double)t)/CLOCKS_PER_SEC; // in seconds
     printf("Time took by selection sort : %f seconds\n", time);
 
+    descending_order(n);
     t=clock();
     bubbleSort(num,n);
     t=clock()-t;
     time = ((double)t)/CLOCKS_PER_SEC; // in seconds
     printf("Time took by bubble sort : %f seconds\n", time);
 
+    descending_order(n);
     t=clock();
     insertionSort(num,n);
     t=clock()-t;
     time = ((double)t)/CLOCKS_PER_SEC; // in seconds
     printf("Time took by insertion sort : %f seconds\n", time);
 
+    descending_order(n);
     t=clock();
     mergeSort(num,0,n-1);
     t=clock()-t;
     time = ((double)t)/CLOCKS_PER_SEC; // in seconds
     printf("Time took by merge sort : %f seconds\n", time);
 
+    descending_order(n);
     t=clock();
     quickSort(num,0,n-1);
     t=clock()-t;
