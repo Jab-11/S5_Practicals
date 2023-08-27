@@ -1,6 +1,7 @@
 """
 Write a python program to find occurrence of an element in the list.
 """
+# Function to find occurrnence of an element
 def find_occ_list(list,x):
     found=False
     print(f"{x} is at index : ",end="")
@@ -11,12 +12,13 @@ def find_occ_list(list,x):
     if found==False:
         print("Not found.")
 
+# Function to take input in a list
 def list_input(n):
-    list=[]
+    l=[]
     for i in range(n):
-        x=int(input())
-        list.append(x)
-    return list
+        x=int(input(f"Element {i+1} : "))
+        l.append(x)
+    return l
 
 n = int(input("Enter the size of list : "))
 num = list_input(n)
