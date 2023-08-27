@@ -1,26 +1,19 @@
 """
 Create a tuple to store value of student's marks of pds subject and display it.
 """
-# # PDS_MARKS=()
-# def insert_marks(name,mark):
-#     list=[name,mark]
-#     # PDS_MARKS+=tuple(list)
-
-# def input_info():
-#     name=input("Enter student's name : ")
-#     mark=float(input("Enter student's marks : "))
-#     insert_marks(name,mark)
-
-# input_info()
-# while(True):
-# name = input("Enter student's name : ")
-# marks = float(input("Enter student's marks : "))
-
-
+# Function to take input of student's name and marks
 def input_pds_marks():
     name = input("Enter student's name : ")
     marks = int(input("Enter student's marks : "))
     return name, marks
+
+# Function to display marks from list
+def display_marks(pds_marks_list):
+    print("\n PDS MARKS")
+    print("-----------")
+    for i in pds_marks_list:
+        print(f" {i[0]}  {i[1]} ")
+    
 
 PDS_MARKS=[]
 
@@ -33,9 +26,4 @@ for i in range(n):
 
 PDS_MARKS=tuple(PDS_MARKS)
 
-# print(PDS_MARKS)
-print("\n-----------")
-print("|PDS MARKS|")
-for i in PDS_MARKS:
-    print(f"|{i[0]} | {i[1]} |")
-print("-----------")
+display_marks(PDS_MARKS)
