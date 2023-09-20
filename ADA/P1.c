@@ -61,3 +61,29 @@ void main(){
     printf("Time took by equation : %f seconds\n", time_eq);
     printf("Time took by recursion : %f seconds\n", time_rec);
 }
+/*
+N=100
+Time took by loop : 0.000013 seconds
+Time took by equation : 0.000005 seconds
+Time took by recursion : 0.000007 seconds
+
+N=200
+Time took by loop : 0.000014 seconds
+Time took by equation : 0.000005 seconds
+Time took by recursion : 0.000011 seconds
+
+N=300
+Time took by loop : 0.000014 seconds
+Time took by equation : 0.000005 seconds
+Time took by recursion : 0.000020 seconds
+
+N=400
+Time took by loop : 0.000014 seconds
+Time took by equation : 0.000006 seconds
+Time took by recursion : 0.000015 seconds
+
+N=500
+Time took by loop : 0.000014 seconds
+Time took by equation : 0.000006 seconds
+Time took by recursion : 0.000016 seconds
+*/

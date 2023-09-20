@@ -14,7 +14,7 @@ sort_col(list,1)
 # Creted a number list to find smallest, largest and sum.
 num_list = [34, 11, 35, 89, 37]
 print("\nNumber list : ",num_list)
-sort_col(num_list)
+
 print("Smallest : ",min(num_list))
 print("Largest: ",max(num_list))
 print("Addition of all members : ",sum(num_list))

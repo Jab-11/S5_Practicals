@@ -17,5 +17,5 @@ str = input("Enter a String : ")
 count = create_dict(str)
 
 # Display dictionary
-for key,val in dict.items():
+for key,val in count.items():
         print(f"{key} : {val}")
