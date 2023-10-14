@@ -7475,7 +7475,35 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="https://colab.research.google.com/github/Jab-11/S5_Practicals/blob/main/PDS/P2/P2.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pract-2: Read company master data of Gujarat dataset. Perform the following operations on it.
+<br/>
+a) Describe the datasets and identify the data types of attributes of the dataset.<br/>
+b) Implement the methods to display the number of missing values of different attributes and methods to
+handle missing value.<br/>
+c) Display the statistics about number of private and public company according to the different registrar of the
+company.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7511,7 +7539,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># a) Describe the datasets and identify the data types of attributes of the dataset.</span>
+<span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -7524,7 +7553,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-6c262736-ba5c-4c0e-bcdc-7e60dbde6a95">
+<div class="colab-df-container" id="df-43881db0-60ea-4789-89a9-3af57a207a57">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -7593,7 +7622,7 @@ a.anchor-link {
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-6c262736-ba5c-4c0e-bcdc-7e60dbde6a95')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-43881db0-60ea-4789-89a9-3af57a207a57')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -7640,12 +7669,12 @@ a.anchor-link {
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-6c262736-ba5c-4c0e-bcdc-7e60dbde6a95 button.colab-df-convert');
+        document.querySelector('#df-43881db0-60ea-4789-89a9-3af57a207a57 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-6c262736-ba5c-4c0e-bcdc-7e60dbde6a95');
+        const element = document.querySelector('#df-43881db0-60ea-4789-89a9-3af57a207a57');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -7663,8 +7692,8 @@ a.anchor-link {
       }
     </script>
 </div>
-<div id="df-909bbfdb-4ee1-4af9-8d3f-7634b02d079f">
-<button class="colab-df-quickchart" onclick="quickchart('df-909bbfdb-4ee1-4af9-8d3f-7634b02d079f')" style="display:none;" title="Suggest charts.">
+<div id="df-cfb70079-fa7e-4434-88d9-d4a37bb9982a">
+<button class="colab-df-quickchart" onclick="quickchart('df-cfb70079-fa7e-4434-88d9-d4a37bb9982a')" style="display:none;" title="Suggest charts.">
 <svg height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
 <g>
 <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
@@ -7777,7 +7806,7 @@ a.anchor-link {
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-909bbfdb-4ee1-4af9-8d3f-7634b02d079f button');
+        document.querySelector('#df-cfb70079-fa7e-4434-88d9-d4a37bb9982a button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -7846,7 +7875,9 @@ memory usage: 11.7+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># b) Implement the methods to display the number of missing values of different attributes and methods to handle missing value.</span>
+<span class="c1"># Display the number of missing values</span>
+<span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -7933,7 +7964,8 @@ dtype: int64
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">columns_to_fill</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">,</span> <span class="s1">'COMPANY_CATEGORY'</span><span class="p">,</span> <span class="s1">'COMPANY_SUB_CATEGORY'</span><span class="p">,</span> <span class="s1">'DATE_OF_REGISTRATION'</span><span class="p">,</span><span class="s1">'LATEST_YEAR_ANNUAL_RETURN'</span><span class="p">,</span><span class="s1">'LATEST_YEAR_FINANCIAL_STATEMENT'</span><span class="p">]</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># methods to handle missing value</span>
+<span class="n">columns_to_fill</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">,</span> <span class="s1">'COMPANY_CATEGORY'</span><span class="p">,</span> <span class="s1">'COMPANY_SUB_CATEGORY'</span><span class="p">,</span> <span class="s1">'DATE_OF_REGISTRATION'</span><span class="p">,</span><span class="s1">'LATEST_YEAR_ANNUAL_RETURN'</span><span class="p">,</span><span class="s1">'LATEST_YEAR_FINANCIAL_STATEMENT'</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -8033,7 +8065,8 @@ dtype: int64</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># c) Display the statistics about number of private and public company according to the different registrar of the company.</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8059,8 +8092,8 @@ dtype: int64</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">statistics</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'REGISTRAR_OF_COMPANIES'</span><span class="p">)[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-<span class="n">statistics</span>
+<div class="highlight hl-python"><pre><span></span><span class="n">company_class_stats</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'REGISTRAR_OF_COMPANIES'</span><span class="p">)[</span><span class="s1">'COMPANY_CLASS'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">unstack</span><span class="p">(</span><span class="n">fill_value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">company_class_stats</span>
 </pre></div>
 </div>
 </div>
@@ -8072,22 +8105,837 @@ dtype: int64</pre>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>REGISTRAR_OF_COMPANIES  COMPANY_CLASS              
-RoC-Ahmedabad           Private                        86338
-                        Public                          8592
-                        Private(One Person Company)      539
-RoC-Bangalore           Private                            1
-RoC-Delhi               Private                            1
-RoC-Goa                 Private                            6
-                        Public                             1
-RoC-Gwalior             Private                            3
-RoC-Jaipur              Private                            4
-                        Public                             1
-RoC-Jammu               Private                            1
-RoC-Kolkata             Public                             2
-RoC-Mumbai              Public                             2
-Name: COMPANY_CLASS, dtype: int64</pre>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div class="colab-df-container" id="df-53cb7344-fcf0-4473-81b4-ed6baf40489c">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>COMPANY_CLASS</th>
+<th>Private</th>
+<th>Private(One Person Company)</th>
+<th>Public</th>
+</tr>
+<tr>
+<th>REGISTRAR_OF_COMPANIES</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>RoC-Ahmedabad</th>
+<td>86338</td>
+<td>539</td>
+<td>8592</td>
+</tr>
+<tr>
+<th>RoC-Bangalore</th>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>RoC-Delhi</th>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>RoC-Goa</th>
+<td>6</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<th>RoC-Gwalior</th>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>RoC-Jaipur</th>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<th>RoC-Jammu</th>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>RoC-Kolkata</th>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<th>RoC-Mumbai</th>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="colab-df-buttons">
+<div class="colab-df-container">
+<button class="colab-df-convert" onclick="convertToInteractive('df-53cb7344-fcf0-4473-81b4-ed6baf40489c')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
+<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+</svg>
+</button>
+<style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+<script>
+      const buttonEl =
+        document.querySelector('#df-53cb7344-fcf0-4473-81b4-ed6baf40489c button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-53cb7344-fcf0-4473-81b4-ed6baf40489c');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+</div>
+<div id="df-2f46b2cb-a83f-4de8-9762-af5cbe5f522a">
+<button class="colab-df-quickchart" onclick="quickchart('df-2f46b2cb-a83f-4de8-9762-af5cbe5f522a')" style="display:none;" title="Suggest charts.">
+<svg height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+</g>
+</svg>
+</button>
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+<script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-2f46b2cb-a83f-4de8-9762-af5cbe5f522a button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="n">company_class_stats</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'REGISTRAR_OF_COMPANIES'</span><span class="p">,</span><span class="s1">'COMPANY_CLASS'</span><span class="p">])</span>
+<span class="n">company_class_stats</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div class="colab-df-container" id="df-09f3b5a6-1bbd-4c3a-83c3-f3090b78c009">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th colspan="8" halign="left">AUTHORIZED_CAP</th>
+<th colspan="8" halign="left">PAIDUP_CAPITAL</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th>count</th>
+<th>mean</th>
+<th>std</th>
+<th>min</th>
+<th>25%</th>
+<th>50%</th>
+<th>75%</th>
+<th>max</th>
+<th>count</th>
+<th>mean</th>
+<th>std</th>
+<th>min</th>
+<th>25%</th>
+<th>50%</th>
+<th>75%</th>
+<th>max</th>
+</tr>
+<tr>
+<th>REGISTRAR_OF_COMPANIES</th>
+<th>COMPANY_CLASS</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th rowspan="3" valign="top">RoC-Ahmedabad</th>
+<th>Private</th>
+<td>86338.0</td>
+<td>1.513450e+07</td>
+<td>6.358357e+08</td>
+<td>0.0</td>
+<td>100000.0</td>
+<td>500000.0</td>
+<td>2000000.0</td>
+<td>1.180000e+11</td>
+<td>86338.0</td>
+<td>9.275464e+06</td>
+<td>4.658348e+08</td>
+<td>0.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>800000.0</td>
+<td>9.780591e+10</td>
+</tr>
+<tr>
+<th>Private(One Person Company)</th>
+<td>539.0</td>
+<td>1.913228e+05</td>
+<td>5.564451e+05</td>
+<td>10.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>1.000000e+07</td>
+<td>539.0</td>
+<td>1.386926e+05</td>
+<td>3.206642e+05</td>
+<td>0.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>5.200000e+06</td>
+</tr>
+<tr>
+<th>Public</th>
+<td>8592.0</td>
+<td>5.506740e+08</td>
+<td>8.740350e+09</td>
+<td>0.0</td>
+<td>600000.0</td>
+<td>7500000.0</td>
+<td>50000000.0</td>
+<td>6.000000e+11</td>
+<td>8592.0</td>
+<td>2.380101e+08</td>
+<td>5.583125e+09</td>
+<td>0.0</td>
+<td>7000.0</td>
+<td>900000.0</td>
+<td>28841130.0</td>
+<td>4.570000e+11</td>
+</tr>
+<tr>
+<th>RoC-Bangalore</th>
+<th>Private</th>
+<td>1.0</td>
+<td>1.850000e+08</td>
+<td>NaN</td>
+<td>185000000.0</td>
+<td>185000000.0</td>
+<td>185000000.0</td>
+<td>185000000.0</td>
+<td>1.850000e+08</td>
+<td>1.0</td>
+<td>2.381596e+07</td>
+<td>NaN</td>
+<td>23815960.0</td>
+<td>23815960.0</td>
+<td>23815960.0</td>
+<td>23815960.0</td>
+<td>2.381596e+07</td>
+</tr>
+<tr>
+<th>RoC-Delhi</th>
+<th>Private</th>
+<td>1.0</td>
+<td>3.500000e+08</td>
+<td>NaN</td>
+<td>350000000.0</td>
+<td>350000000.0</td>
+<td>350000000.0</td>
+<td>350000000.0</td>
+<td>3.500000e+08</td>
+<td>1.0</td>
+<td>2.587250e+08</td>
+<td>NaN</td>
+<td>258725000.0</td>
+<td>258725000.0</td>
+<td>258725000.0</td>
+<td>258725000.0</td>
+<td>2.587250e+08</td>
+</tr>
+<tr>
+<th rowspan="2" valign="top">RoC-Goa</th>
+<th>Private</th>
+<td>6.0</td>
+<td>3.403333e+07</td>
+<td>8.131164e+07</td>
+<td>100000.0</td>
+<td>200000.0</td>
+<td>750000.0</td>
+<td>2125000.0</td>
+<td>2.000000e+08</td>
+<td>6.0</td>
+<td>1.666667e+04</td>
+<td>4.082483e+04</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>1.000000e+05</td>
+</tr>
+<tr>
+<th>Public</th>
+<td>1.0</td>
+<td>1.000000e+08</td>
+<td>NaN</td>
+<td>100000000.0</td>
+<td>100000000.0</td>
+<td>100000000.0</td>
+<td>100000000.0</td>
+<td>1.000000e+08</td>
+<td>1.0</td>
+<td>0.000000e+00</td>
+<td>NaN</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.000000e+00</td>
+</tr>
+<tr>
+<th>RoC-Gwalior</th>
+<th>Private</th>
+<td>3.0</td>
+<td>2.333333e+07</td>
+<td>5.773503e+06</td>
+<td>20000000.0</td>
+<td>20000000.0</td>
+<td>20000000.0</td>
+<td>25000000.0</td>
+<td>3.000000e+07</td>
+<td>3.0</td>
+<td>2.183833e+07</td>
+<td>7.230115e+06</td>
+<td>16236000.0</td>
+<td>17757500.0</td>
+<td>19279000.0</td>
+<td>24639500.0</td>
+<td>3.000000e+07</td>
+</tr>
+<tr>
+<th rowspan="2" valign="top">RoC-Jaipur</th>
+<th>Private</th>
+<td>4.0</td>
+<td>2.000000e+05</td>
+<td>2.000000e+05</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>200000.0</td>
+<td>5.000000e+05</td>
+<td>4.0</td>
+<td>1.000000e+05</td>
+<td>0.000000e+00</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>1.000000e+05</td>
+</tr>
+<tr>
+<th>Public</th>
+<td>1.0</td>
+<td>7.500000e+08</td>
+<td>NaN</td>
+<td>750000000.0</td>
+<td>750000000.0</td>
+<td>750000000.0</td>
+<td>750000000.0</td>
+<td>7.500000e+08</td>
+<td>1.0</td>
+<td>4.972422e+08</td>
+<td>NaN</td>
+<td>497242160.0</td>
+<td>497242160.0</td>
+<td>497242160.0</td>
+<td>497242160.0</td>
+<td>4.972422e+08</td>
+</tr>
+<tr>
+<th>RoC-Jammu</th>
+<th>Private</th>
+<td>1.0</td>
+<td>1.000000e+05</td>
+<td>NaN</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>100000.0</td>
+<td>1.000000e+05</td>
+<td>1.0</td>
+<td>2.000000e+02</td>
+<td>NaN</td>
+<td>200.0</td>
+<td>200.0</td>
+<td>200.0</td>
+<td>200.0</td>
+<td>2.000000e+02</td>
+</tr>
+<tr>
+<th>RoC-Kolkata</th>
+<th>Public</th>
+<td>2.0</td>
+<td>3.375000e+07</td>
+<td>2.298097e+07</td>
+<td>17500000.0</td>
+<td>25625000.0</td>
+<td>33750000.0</td>
+<td>41875000.0</td>
+<td>5.000000e+07</td>
+<td>2.0</td>
+<td>2.570000e+07</td>
+<td>1.477853e+07</td>
+<td>15250000.0</td>
+<td>20475000.0</td>
+<td>25700000.0</td>
+<td>30925000.0</td>
+<td>3.615000e+07</td>
+</tr>
+<tr>
+<th>RoC-Mumbai</th>
+<th>Public</th>
+<td>2.0</td>
+<td>1.250000e+08</td>
+<td>9.192388e+07</td>
+<td>60000000.0</td>
+<td>92500000.0</td>
+<td>125000000.0</td>
+<td>157500000.0</td>
+<td>1.900000e+08</td>
+<td>2.0</td>
+<td>8.472280e+07</td>
+<td>4.556993e+07</td>
+<td>52500000.0</td>
+<td>68611402.5</td>
+<td>84722805.0</td>
+<td>100834207.5</td>
+<td>1.169456e+08</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="colab-df-buttons">
+<div class="colab-df-container">
+<button class="colab-df-convert" onclick="convertToInteractive('df-09f3b5a6-1bbd-4c3a-83c3-f3090b78c009')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
+<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+</svg>
+</button>
+<style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+<script>
+      const buttonEl =
+        document.querySelector('#df-09f3b5a6-1bbd-4c3a-83c3-f3090b78c009 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-09f3b5a6-1bbd-4c3a-83c3-f3090b78c009');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+</div>
+<div id="df-24fade2b-9eb5-4038-bea4-ab96c2513513">
+<button class="colab-df-quickchart" onclick="quickchart('df-24fade2b-9eb5-4038-bea4-ab96c2513513')" style="display:none;" title="Suggest charts.">
+<svg height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+</g>
+</svg>
+</button>
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+<script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-24fade2b-9eb5-4038-bea4-ab96c2513513 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
