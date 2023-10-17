@@ -20,7 +20,7 @@ def perfect_num(n):
     # Calculate the sum of all proper divisors
     for i in range(1,n):
         if n%i==0:
-            sum+=1
+            sum+=i
 
     # Check if sum is number itself 
     if sum==n:
