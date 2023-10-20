@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "P4.C": "cpp"
-    }
+        "P4.C": "c",
+        "limits": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
