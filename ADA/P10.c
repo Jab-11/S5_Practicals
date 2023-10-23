@@ -76,7 +76,7 @@ void main(){
             }
             printf("\n");
             free(changes);
-            break;
+            return;
         }
     }
     printf("Not Possible!!\n");
